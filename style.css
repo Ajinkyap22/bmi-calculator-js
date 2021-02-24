@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inconsolate", monospace;
+  /* font-family: "Poppins", sans-serif; */
+}
+
+body {
+  text-align: center;
+}
+
+header {
+  margin: 10px;
+}
+
+header > * {
+  padding: 10px;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, #42a5f5 50%, #194d9b 100%);
+}
+
+.height,
+.weight {
+  display: flex;
+}
+
+.input {
+  margin: 10px;
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.unit {
+  width: 100px;
+  margin: 10px;
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.submit {
+  font-size: 16px;
+  padding: 10px;
+  margin: 20px;
+  text-transform: uppercase;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+}
+
+.submit:hover {
+  transform: scale(1.05);
+  background: rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.bmi__label {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.note {
+  font-size: 18px;
+  margin: 15px;
+}
+
+footer {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+a {
+  color: darkblue;
+}

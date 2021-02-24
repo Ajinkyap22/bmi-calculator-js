@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>BMI Calculator</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>BMI Calculator</h1>
+        <h3>Find out what your Body Mass Index is</h3>
+      </header>
+
+      <form class="input__form">
+        <div class="weight">
+          <input
+            type="text"
+            class="input input__weight"
+            placeholder="Enter your weight"
+            required
+          />
+          <select class="unit unit__weight">
+            <option value="Kg">Kg</option>
+            <option value="Pounds">Pounds</option>
+          </select>
+        </div>
+
+        <div class="height">
+          <input
+            type="text"
+            class="input input__height"
+            placeholder="Enter your height"
+            required
+          />
+          <select class="unit unit__height">
+            <option value="meters">meters</option>
+            <option value="centimeters">centimeters</option>
+            <option value="inches">inches</option>
+            <option value="feet">feet</option>
+          </select>
+        </div>
+
+        <button type="submit" class="submit">Calculate</button>
+      </form>
+      <label class="bmi__label">Your BMI is: <span class="bmi">0</span></label>
+      <p class="note">BMI between 18.5 - 24.9 is considered ideal.</p>
+      <footer>
+        <p>
+          Built by
+          <a href="https://github.com/Ajinkyap22" target="_blank"
+            >Ajinkya Palaskar</a
+          >
+          |
+          <a
+            href="https://github.com/Ajinkyap22/bmi-calculator-js"
+            target="_blank"
+            >Source code</a
+          >
+        </p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
