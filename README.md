@@ -37,6 +37,6 @@ Project is: _finished_
 
 ## Contact
 
-feel free to contact me at my mail - palaskarajinkya22@gmail.com
+Feel free to contact me at my mail - palaskarajinkya22@gmail.com
 
 
